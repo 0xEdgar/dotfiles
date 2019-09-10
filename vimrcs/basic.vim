@@ -145,6 +145,10 @@ endtry
 
 set background=dark
 
+set number
+set mouse=a
+
+
 " Set extra options when running in GUI mode
 if has("gui_running")
     set guioptions-=T
