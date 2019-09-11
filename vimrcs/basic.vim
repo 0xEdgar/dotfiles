@@ -172,8 +172,10 @@ set nobackup
 set nowb
 set noswapfile
 
+" have nerdtree show dotfiles
+let NERDTreeShowHidden=1
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Use spaces instead of tabs

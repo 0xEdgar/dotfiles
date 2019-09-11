@@ -32,7 +32,12 @@ set background=dark
 colorscheme onedark
 
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Colorscheme for lightline
+let g:lightline = {
+      \ 'colorscheme': 'one',
+      \ }
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Fast editing and reloading of vimrc configs
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 map <leader>e :e! ~/.vim_runtime/my_configs.vim<cr>
@@ -48,6 +53,8 @@ try
     set undofile
 catch
 endtry
+
+
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
